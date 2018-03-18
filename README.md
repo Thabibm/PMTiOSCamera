@@ -25,10 +25,10 @@ Key - "NSCameraUsageDescription"        value - "(message you want to show to
   
 4. To launch camera add following line in your view controller
   
-      CameraManager.sharedInstance.loadCamera(cameraDelegate: self)
+        CameraManager.sharedInstance.loadCamera(cameraDelegate: self)
       
 5. To get Image output add the following method in to your view controller
   
-      func didCompleteImageCapture(image: UIImage) {
-        //Process the captured image
-      }
+        func didCompleteImageCapture(image: UIImage) {
+          //Process the captured image
+        }
