@@ -13,19 +13,21 @@ Features
 - Tap to focus
 
 Installation
-Clone the repository and add Camer Module folder into your project
+1. Clone the repository and add Camera Module folder into your project
 
-add the following key in to your projects info.plist file
+2. Add the following key in to your projects info.plist file
 
 Key - "NSCameraUsageDescription"        value - "<message you want to show to acces device camera when User uses it>" 
   
   with out the above key app would crash when it tries to access camera
   
-  To launch camera add following line in your view controller
+3. Let your view controller conform to the Camera delegate
+  
+4. To launch camera add following line in your view controller
   
       CameraManager.sharedInstance.loadCamera(cameraDelegate: self)
       
-  To get Image output add the following method in to your view controller
+5. To get Image output add the following method in to your view controller
   
       func didCompleteImageCapture(image: UIImage) {
         //Process the captured image
