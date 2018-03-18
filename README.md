@@ -27,6 +27,6 @@ Key - "NSCameraUsageDescription"        value - "<message you want to show to
       
   To get Image output add the following method in to your view controller
   
-  func didCompleteImageCapture(image: UIImage) {
-    //Process the captured image
-  }
+      func didCompleteImageCapture(image: UIImage) {
+        //Process the captured image
+      }
