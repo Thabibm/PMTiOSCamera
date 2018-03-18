@@ -17,7 +17,7 @@ Installation
 
 2. Add the following key in to your projects info.plist file
 
-Key - "NSCameraUsageDescription"        value - "<message you want to show to acces device camera when User uses it>" 
+Key - "NSCameraUsageDescription"        value - "(message you want to show to acces device camera when User uses it)" 
   
   with out the above key app would crash when it tries to access camera
   
