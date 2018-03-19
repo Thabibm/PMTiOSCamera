@@ -3,7 +3,7 @@
 Do you want to integrate camera functionality into your project? Well then you are in a right place this project will aid you to integrate camera module as a plug and play code into your project.
 
 Usage Description
-- This app need i0S 8 or greater  
+- This app need i0S 11 or greater  
 - Supports Swift 4.0
 
 Features
